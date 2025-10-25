@@ -1,0 +1,13 @@
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/Result/Result.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Domain/Calculator/ValueObjects/InvestmentMonth.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/ValueObject/BaseValueObject.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/Entity/Identifier.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Domain/Calculator/Calculator.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/ValueObject/TimeTypes.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/ValueObject/RegexTypes.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Domain/Calculator/ValueObjects/Tax.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Domain/Calculator/ValueObjects/Time.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/Entity/UUIDGenerator.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Main.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/Entity/BaseEntity.java
+/home/yuri/Documentos/Projetos/CalculadoraInvest/core/src/main/java/com/core/Kernel/ValueObject/IValidate.java
