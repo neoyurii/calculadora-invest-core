@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.core.Domain.Calculator.ValueObjects.InvestmentMonth;
 
-public class ConsoleInvestmentPresenter {
+public class ConsoleInvestmentPresenter implements Presenter {
 
     private static DecimalFormat df = new DecimalFormat("#,##0.00");
 

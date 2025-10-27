@@ -1,34 +1,25 @@
 package com.core.Kernel.Controller;
 
-import com.core.Kernel.Result.Result;
-
-public abstract class Response<T> {
-    private final T body;
+public abstract class Response{
+    private final RequestAndResponseData<?> data;
     private final String message;
-    private final Boolean status;
-    private final String error;
+    private final RequestAndResponseStatus status;
 
-    public Response(T body, String message, Boolean status, String error){
-        this.body = body;
+    public Response(RequestAndResponseData<?> data, String message, RequestAndResponseStatus status){
+        this.data = data;
         this.message = message;
         this.status = status;
-        this.error = error;
     }
 
-    public T getBody(){
-        return this.body;
+    public RequestAndResponseData<?> getResponseData(){
+        return this.data;
     }
 
     public String getMessage(){
         return this.message;
     }
 
-    public Boolean getStatus(){
+    public RequestAndResponseStatus getStatus(){
         return this.status;
     }
-
-    public String getError(){
-        return this.error;
-    }
-
 }

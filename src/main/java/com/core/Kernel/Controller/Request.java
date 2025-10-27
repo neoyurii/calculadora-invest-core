@@ -1,37 +1,42 @@
 package com.core.Kernel.Controller;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import com.core.Kernel.Entity.Identifier;
-import com.core.Kernel.Result.Result;
 
-public abstract class Request<T> {
+public abstract class Request {
     private final Identifier id;
-    private final T body;
-    private final Boolean status;
+    private final RequestAndResponseData<?> data;
+    private final RequestAndResponseStatus status;
     private final String error;
     private final LocalDateTime date;
 
-    public Request(T body, Boolean status, String error){
+    public Request(RequestAndResponseData<?> data, RequestAndResponseStatus status, String error) {
         this.id = Identifier.generateUUID();
-        this.body = body;
+        this.data = data;
         this.status = status;
         this.error = error;
         this.date = LocalDateTime.now();
     }
 
-    public T getBody(){
-        return this.body;
+    public RequestAndResponseData<?> getRequestData(){
+        return this.data;
     }
 
-    public Boolean getStatus(){
+    public RequestAndResponseStatus getStatus() {
         return this.status;
     }
 
-    public String getError(){
-        return this.error;
+    public LocalDateTime getDate() {
+        return date;
     }
 
+    public Identifier getId() {
+        return id;
+    }
+
+    public String getError() {
+        return this.error;
+    }
 
 }
